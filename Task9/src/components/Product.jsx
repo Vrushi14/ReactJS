@@ -4,7 +4,7 @@ const Product = ({name,price}) => {
   return (
     <div>
       <h2>Product: {name}</h2>
-        <p>Price: {price}</p>
+        <p><strong>Price: </strong>{price}</p>
     </div>
   )
 }

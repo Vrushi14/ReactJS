@@ -4,7 +4,7 @@ const Person = ({name,age}) => {
   return (
     <div>
         <h2>Name: {name}</h2>
-        <p>Age: {age}</p>
+        <p><strong>Age: </strong>{age}</p>
     </div>
   )
 }
